@@ -1,0 +1,594 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width:100%;
+    height: 150px;
+    background-image: url(http://healthy-cambodia.com/images/bg.jpg?cd9c0cd0a7b02b592b86945b9ecea740);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border: 1px solid red; */
+}
+.ban{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.logo{
+    width: 1146px;
+    height: 100%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+img{
+    width: 150px;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    /* border: 1px solid red; */
+}
+.menu ul{
+    width: 1146px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.menu ul li{
+    padding-top: 10px;
+    float: left;
+    list-style-type: none;
+}
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: green;
+}
+.main1{
+    width: 100%;
+    height: 2100px;
+    background-color: rgb(216, 216, 216);
+    /* border: 1px solid red; */
+}
+.content{
+    width: 1146px;
+    height: 2090px;
+    margin: auto;
+    display: block;
+    padding-top: 10px;
+    /* border: 1px solid red; */
+}
+.newest{
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid red; */
+}
+.n1{
+    width: 10%;
+    height: 30px;
+    font-size: small;
+    padding-top: 10px;
+    float: left;
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(3, 248, 3);
+}
+.slide{
+    width: 90%;
+    height: 30px;
+    float: right;
+    padding-top: 10px;
+    color: grey;
+    background-color: white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    /* border: 1px solid red; */
+}
+
+.slide span{
+    color: green;
+}
+.main2{
+    width: 1146px;
+    height: 400px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    /* border: 1px solid red; */
+}
+.photo{
+    width: 740px;
+    height: 380px;
+    /* border: 1px solid red; */
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+    overflow: hidden;
+}
+.post1{
+    width: 760px;
+    height: 400px;
+    float: left;
+    background-color: white;
+    border-radius: 5px;
+}
+.post1 img{
+    width: 740px;
+    height: 380px;
+}
+.post1:hover img{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.post1 .short-detail{
+    width: 740px;
+    height: 140px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 250px;
+    background: linear-gradient(180deg,rgba(255,255,255,0) 0,#000 100%);
+    /* border: 1px solid red; */
+}
+.button{
+    width: 90%;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 35px;
+    /* border: 1px solid red; */
+}
+.button button{
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(3, 248, 3);
+}
+.title{
+    width: 90%;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 35px;
+    /* border: 1px solid red; */
+}
+.title p{
+    font-size: small;
+    color: white;
+}
+.post2{
+    width: 400px;
+    height: 400px;
+    float: left;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    /* border: 1px solid rebeccapurple; */
+}
+.small-post{
+    width: 350px;
+    height: 380px;
+    /* border: 1px solid red; */
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+}
+.mini-post{
+    width: 350px;
+    height: 90px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    /* border: 1px solid red; */
+}
+.po1{
+    width: 150px;
+    height: 90px;
+    float: left;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+.po1 img{
+    width: 150px;
+    height: 90px;
+}
+.mini-post:hover .po1 img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.title1{
+    width: 200px;
+    height: 90px;
+    margin-left: 160px;
+    position: absolute;
+    /* border: 1px solid red; */
+}
+.title1 a{
+    color: black;
+    text-decoration: none;
+}
+.full-content{
+    width: 1146px;
+    height: 1630px;
+    float: left;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+.left{
+    width: 650px;
+    height: 1630px;
+    float: left;
+    /* border: 1px solid green; */
+}
+.right{
+    width: 460px;
+    height: 1630px;
+    float: right;
+    /* border: 1px solid green; */
+}
+.content-box1{
+    width: 100%;
+    height: 525px;
+    /* border: 1px solid red; */
+}
+.banner{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid rgb(3, 248, 3);
+}
+.ban-box{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(3, 248, 3);
+}
+.ban-box a{
+    display: block;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+.banner1{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid rgb(3, 248, 3);
+}
+.ban-box1{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(3, 248, 3);
+}
+.ban-box1 a{
+    font-size: x-small;
+    display: block;
+    padding-top: 15px;
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+.small-content{
+    width: 100%;
+    height: 145px;
+    margin-top: 10px;
+    /* border: 1px solid red;  */
+    display: flex;
+    justify-content: space-between;
+}
+.mini-content{
+    width: 45%;
+    height: 145px;
+    float: left;
+    background-color: white;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+.mini-content{
+    width: 49%;
+    height: 145px;
+    float: left;
+    /* border: 1px solid red; */
+}
+.mini-content1{
+    width: 49%;
+    height: 145px;
+    float: right;
+    /* border: 1px solid red;*/
+}
+.pho-con{
+    width: 100px;
+    height: 145px;
+    float: left;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+}
+.pho-con img{
+    margin-top: 10px;
+    width: 100px;
+    height: 130px;
+}
+.con-detail{
+    width: 260px;
+    height: 140px;
+    margin-left: 120px;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+.con-detail a{
+    padding-bottom: 30px;
+    display: block;
+    font-size: small;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+}
+.con-detail span{
+    color: grey;
+}
+.mini-content:hover .pho-con img{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.content-box2{
+    width: 49%;
+    height: 450px;
+    float: left;
+    background-color: white;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.con-detail1{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid red; */
+}
+.con-detail1 a{
+    color: black;
+    text-decoration: none;
+}
+.con-detail1 span{
+    color: grey;
+}
+.pho-con1{
+    width: 95%;
+    height: 75%;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+.pho-con1 img{
+    width: 100%;
+    height: 100%;
+}
+.content-box2:hover img{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.content-box3{
+    width: 49%;
+    height: 450px;
+    float: right;
+    background-color: white;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.box-hover{
+    width: 100%;
+    height: 130px;
+    /* border: 1px solid red; */
+}
+.pho-con2{
+    width: 100px;
+    height: 130px;
+    float: left;
+    margin-left: 10px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+.pho-con2 img{
+    width: 100%;
+    height: 100%;
+}
+.box-hover:hover .pho-con2 img{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.rbox-hover{
+    width: 100%;
+    height: 145px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+    /* border: 1px solid red; */
+}
+.pho-con3{
+    width: 150px;
+    height: 135px;
+    margin-top: 5px;
+    margin-left: 10px;
+    float: left;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+.con-detail3{
+    width: 280px;
+    height: 140px;
+    margin-left: 170px;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+.con-detail3 span{
+    color: grey;
+    display: block;
+    padding-top: 40px;
+}
+.con-detail3 a{
+    color: black;
+    text-decoration: none;
+}
+.rbox-hover:hover img{
+    transition: 0.5s;
+    transform: scale(1.1);
+
+}
+footer{
+    width: 100%;
+    height: 180px;
+    color: white;
+    background-image: url(http://healthy-cambodia.com/images/bg.jpg?cd9c0cd0a7b02b592b86945b9ecea740);
+    background-size: cover;
+    /* border: 1px solid red; */
+}
+.mid{
+    width: 60%;
+    height: 160px;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+.left-box{
+    width: 650px;
+    height:340px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid yellow; */
+}
+.lbox{
+    width: 200px;
+    height: 320px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    /* border: 1px solid red; */
+}
+.limage{
+    width: 190px;
+    height: 150px;  
+    margin-left: 5px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+.lbox img{
+    width: 270px;
+    height: 150px;  
+    object-fit: cover;
+}
+.left-detail{
+    width: 270px;
+    height: 150px;
+    display: block;
+    margin-left: 5px;
+    margin-top: 5px;
+    /* border: 1px solid red; */
+}
+.left-box a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.ltitle{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid red; */
+}
+.date{
+    width: 100%;
+    height: 20px;
+    display: block;
+    margin-top: 25px;
+    color: grey;
+    /* border: 1px solid red; */
+}
+.lbox:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.detailtxt{
+    width: 880px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border: 1px solid red; */
+}
+.photos{
+    width: 650px;
+    height: 600px;
+    margin-top: 20px;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+}
+.photos img{
+    width: 630px;
+    height: 600px;
+}
+.sdetail{
+    width: 880px;
+    height: 550px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    /* border: 1px solid red; */
+}
+.comment{
+    width: 650px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+}
+.address{
+    width: 650px;
+    height: 200px;
+    /* border: 1px solid red; */
+}
+.us{
+    width: 650px;
+    height: 400px;
+    margin-top: 20px;
+    background-color: white;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+}
+.us h1{
+    color: rgb(9, 255, 9);
+}
+.us p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.us p span{
+    margin-left: 80px;
+}
+.map{
+    margin-top: 20px;
+}
+.textarea{
+    width: 630px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
